@@ -10,4 +10,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the repository locally
+2. Install Docker by following the instructions here: https://docs.docker.com/get-docker/
+3. Ensure that docker and docker compose are installed and working by running "docker -v" and "docker-compose -v" in a fresh terminal
+4. cd to the root of the repo and run the Docker Compose script with "docker-compose up"
+5. If there were no errors and a build message saying webpack has been built appears you're done. Congrats!
